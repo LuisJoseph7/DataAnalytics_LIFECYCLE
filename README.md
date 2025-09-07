@@ -5,7 +5,7 @@ This project demonstrates the **end-to-end machine learning workflow** for predi
 ---
 
 ## 1. Data Collection
-Gathering relevant datasets from internal or public sources to prepare for analysis.
+Gathering relevant datasets from public sources to prepare for analysis.
 
 ---
 
