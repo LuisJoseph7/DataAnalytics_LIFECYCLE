@@ -67,14 +67,10 @@ Gathering relevant datasets from public sources to prepare for analysis.
 
 ---
 
-## Author
-**Luis Rivero** – Business Intelligence & Data Science Specialist  
-[LinkedIn](https://www.linkedin.com/in/luis-joseph-rivero-salguedo-b73878aa) | [GitHub][(https://github.com/your-user)](https://github.com/LuisJoseph7)
-
 
 ### Google Colab  
 
 ## Author
 
 **Luis Rivero** – Business Intelligence & Data Science Specialist  
-www.linkedin.com/in/luis-joseph-rivero-salguedo-b73878aa
+[LinkedIn](https://www.linkedin.com/in/luis-joseph-rivero-salguedo-b73878aa) | [GitHub](https://github.com/LuisJoseph7)
