@@ -69,14 +69,8 @@ Gathering relevant datasets from internal or public sources to prepare for analy
 
 ## Author
 **Luis Rivero** – Business Intelligence & Data Science Specialist  
-[LinkedIn](https://linkedin.com/in/your-link) | [GitHub](https://github.com/your-user)
+[LinkedIn](https://www.linkedin.com/in/luis-joseph-rivero-salguedo-b73878aa) | [GitHub][(https://github.com/your-user)](https://github.com/LuisJoseph7)
 
-## Tools & Libraries
-
-- **Python** – Core programming language  
-- **Scikit-learn** – Machine learning library for training and evaluation  
-- **Pandas & NumPy** – Data manipulation and analysis  
-- **Matplotlib & Seaborn** – Data visualization  
 
 ### Google Colab  
 
