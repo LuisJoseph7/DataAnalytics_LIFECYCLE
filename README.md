@@ -1,26 +1,75 @@
-# Supervised Learning Models – Default Probability Prediction
+# Machine Learning Project – Default Probability Prediction
 
-This project demonstrates the application of **supervised learning models** to predict the probability of default (credit risk). The goal is to compare different models, optimize their hyperparameters, and evaluate their performance using **AUC-ROC**.
+This project demonstrates the **end-to-end machine learning workflow** for predicting default probability. It covers data collection, exploratory analysis, data preparation, feature engineering, model building, and evaluation using various supervised learning algorithms.
 
-## Project Highlights
+---
 
-- **Comparison by AUC-ROC**: Evaluate and compare model performance using the Area Under the ROC Curve metric.  
-- **Hyperparameter Optimization**: Fine-tune models for better predictive accuracy using machine learning techniques.  
+## 1. Data Collection
+Gathering relevant datasets from internal or public sources to prepare for analysis.
 
-## Models Implemented
+---
 
-- **Random Forest** – Ensemble learning method for classification and regression.  
-- **Logistic Regression** – Traditional statistical model for binary classification.  
-- **Gaussian Naive Bayes** – Probabilistic classifier assuming Gaussian distributions.  
-- **Support Vector Machine (SVM)** – Maximizes the margin between classes for classification.  
+## 2. Exploratory Data Analysis (EDA)
 
-## Workflow / Lifecycle
+**a) Univariate Analysis**  
+- **Categorical Variables** – Frequency counts and visualizations.  
+- **Continuous Variables** – Distribution, mean, median, standard deviation.  
 
-1. **Data Collection & Preparation** – Clean, encode, and scale features.  
-2. **Exploratory Data Analysis (EDA)** – Analyze feature distributions and correlations.  
-3. **Feature Engineering** – Create and select variables that improve model performance.  
-4. **Model Training & Evaluation** – Train models and evaluate using AUC-ROC.  
-5. **Hyperparameter Tuning** – Optimize models for the best performance.  
+**b) Bivariate Analysis**  
+- **Categorical vs. Categorical** – Cross-tabulations and chi-square tests.  
+- **Continuous vs. Categorical** – Boxplots, ANOVA, or t-tests.  
+- **Continuous vs. Continuous** – Correlation analysis and scatterplots.  
+
+**c) Multivariate Analysis**  
+- Explore relationships among multiple variables simultaneously to identify patterns and dependencies.  
+
+**Data Cleaning**  
+- Handling missing values, outliers, and inconsistent data entries.
+
+---
+
+## 3. Data Preparation
+
+**a) Data Scaling / Normalization**  
+- **StandardScaler** – Standardize features by removing the mean and scaling to unit variance.  
+- **MinMaxScaler** – Scale features to a given range, typically [0,1].  
+- **RobustScaler** – Scale features using statistics that are robust to outliers.  
+
+**b) Missing Data Imputation**  
+- Handle missing values in strings and numeric columns using appropriate imputation techniques.  
+
+**c) Categorical to Numeric Transformation**  
+- Convert categorical variables to numerical representations for model compatibility.
+
+---
+
+## 4. Feature Engineering
+- Create, transform, or select features that improve model performance and predictive power.
+
+---
+
+## 5. Model Building
+- Train machine learning classifiers such as Random Forest, Logistic Regression, Gaussian Naive Bayes, and Support Vector Machine.  
+
+---
+
+## 6. Model Evaluation
+- Assess model performance using metrics such as **AUC-ROC**, accuracy, precision, recall, and F1-score.  
+- Optimize hyperparameters to achieve the best predictive results.
+
+---
+
+## Tools & Libraries
+- **Python** – Core programming language  
+- **Scikit-learn** – Machine learning algorithms and tools  
+- **Pandas & NumPy** – Data manipulation  
+- **Matplotlib & Seaborn** – Data visualization  
+
+---
+
+## Author
+**Luis Rivero** – Business Intelligence & Data Science Specialist  
+[LinkedIn](https://linkedin.com/in/your-link) | [GitHub](https://github.com/your-user)
 
 ## Tools & Libraries
 
